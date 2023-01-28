@@ -83,7 +83,7 @@ setInterval(function () {
 		balls[i].move();
 		// Отскакивание мяча (Метод checkCollision)
 		balls[i].checkCollision();
-		// Обводим рамкой границы «холста»
 	};
+	// Обводим рамкой границы «холста»
 	ctx.strokeRect(0, 0, widthCanvas, heightCanvas);
 }, 20);
